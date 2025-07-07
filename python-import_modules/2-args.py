@@ -1,8 +1,7 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+from sys import argv
 
 if __name__ == "__main__":
-    from sys import argv
-
     count = len(argv) - 1
 
     if count == 0:
